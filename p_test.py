@@ -30,8 +30,12 @@ def login():
                 return True
     print("try again")
     return False
+
+
 request = input("register or login : ")
+
 if request == "register":
     register()
+
 elif request == "login":
     login()
